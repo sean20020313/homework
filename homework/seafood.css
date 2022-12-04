@@ -1,0 +1,31 @@
+:root {
+    --primary: #d49e6a;
+    --secondary: #cab69b;
+    --title: #565656;
+    --body: #a3a3a3;
+    --price: #a3a3a3;
+    --sale: #e55555;
+    --black: #424242;
+    --white: #ffffff;
+    --light: #E2E2E2;
+    --accent: #d49e6a;
+    --button: #d49e6a;
+}
+.title{
+  text-align: center;
+  font-size:1.5rem ;
+}
+.first-content{
+  margin-top:5rem;
+  padding: 10rem;
+  display:grid ;
+  grid-template-columns: repeat(3,1fr);
+}
+.center{
+text-align: center;
+background-color:#fbe4cf;
+}
+.picture{
+  padding: 1rem;
+  max-block-size:10rem ;
+}
