@@ -11,6 +11,11 @@
     --accent: #d49e6a;
     --button: #d49e6a;
 }
+/*
+==========
+first-content
+==========
+*/
 .title{
   text-align: center;
   font-size:1.5rem ;
@@ -28,4 +33,27 @@ background-color:#fbe4cf;
 .picture{
   padding: 1rem;
   max-block-size:10rem ;
+}
+/*
+==========
+second-content
+==========
+*/
+
+.picture2{
+  max-block-size:15rem ;
+}
+.btn{
+  background-color: var(--accent);
+  border:1px solid black ;
+}
+.second-content{
+  margin-top: 5rem;
+  display:grid ;
+  grid-template-columns:repeat(4,1fr);
+}
+.center2{
+  padding:1rem ;
+  margin: 2rem;
+  text-align: center;
 }
